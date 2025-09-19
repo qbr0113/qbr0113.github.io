@@ -1,0 +1,9 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome",
+    "section": "",
+    "text": "Hello, Quarto + Python 👋\n下面演示 PySpark 与 pandas 的简单输出。\nfrom pyspark.sql import SparkSession spark = SparkSession.builder.getOrCreate() print(“PySpark version:”, spark.version) df = spark.createDataFrame([(1,“A”),(2,“B”),(3,“C”)], [“id”,“label”]) df.show()\nimport pandas as pd import numpy as np pdf = pd.DataFrame({“x”: np.arange(6), “y”: np.arange(6)**2}) pdf\n```bash cat &gt; about.qmd &lt;&lt; ‘EOF’ — title: “About” —\nimport platform, psutil print(“OS:”, platform.system(), platform.release()) print(“Python:”, platform.python_version()) mem = psutil.virtual_memory() print(“Total Memory (MB):”, round(mem.total/1024**2, 2))\n```bash\nquarto render\nquarto publish gh-pages"
+  }
+]
