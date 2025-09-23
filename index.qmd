@@ -1,7 +1,26 @@
 ---
-title: "Bingrui Qiao"
+title: "Welcome to My Website"
+author: "Bingrui Qiao"
+date: "`r Sys.Date()`"
+format:
+  html:
+    theme: journal
+    toc: true
 ---
 
-This is a Quarto website.
+# Hello, World!
+Welcome to my Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Section 1
+- This is my first bullet point
+- This is my second bullet point
+- Learn more: [Quarto Websites](https://quarto.org/docs/websites/)
+
+## Section 2
+Here is a simple **Python** example:
+
+```{python}
+import pandas as pd
+import numpy as np
+df = pd.DataFrame({"x": np.arange(6), "y": np.arange(6)**2})
+df
