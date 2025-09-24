@@ -16,12 +16,4 @@ Welcome to my Quarto website.
 - This is my second bullet point
 - Learn more: [Quarto Websites](https://quarto.org/docs/websites/)
 
-## Section 2
-Here is a simple **Python** example:
-
-```{python}
-import pandas as pd
-import numpy as np
-df = pd.DataFrame({"x": np.arange(6), "y": np.arange(6)**2})
-df
 
