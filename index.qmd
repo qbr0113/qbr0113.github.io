@@ -24,3 +24,4 @@ import pandas as pd
 import numpy as np
 df = pd.DataFrame({"x": np.arange(6), "y": np.arange(6)**2})
 df
+
