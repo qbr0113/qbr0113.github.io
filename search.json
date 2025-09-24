@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Welcome to My Website",
     "section": "",
-    "text": "Welcome to my Quarto website.\n\n\n\nThis is my first bullet point\nThis is my second bullet point\nLearn more: Quarto Websites\n\n\n\n\nHere is a simple Python example:\nimport pandas as pd import numpy as np df = pd.DataFrame({“x”: np.arange(6), “y”: np.arange(6)**2}) df"
+    "text": "Welcome to my Quarto website.\n\n\n\nThis is my first bullet point\nThis is my second bullet point\nLearn more: Quarto Websites"
   },
   {
     "objectID": "index.html#section-1",
@@ -12,13 +12,6 @@
     "title": "Welcome to My Website",
     "section": "",
     "text": "This is my first bullet point\nThis is my second bullet point\nLearn more: Quarto Websites"
-  },
-  {
-    "objectID": "index.html#section-2",
-    "href": "index.html#section-2",
-    "title": "Welcome to My Website",
-    "section": "",
-    "text": "Here is a simple Python example:\nimport pandas as pd import numpy as np df = pd.DataFrame({“x”: np.arange(6), “y”: np.arange(6)**2}) df"
   },
   {
     "objectID": "about.html",
