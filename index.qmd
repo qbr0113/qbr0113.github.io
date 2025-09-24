@@ -1,7 +1,7 @@
 ---
 title: "Welcome to My Website"
 author: "Bingrui Qiao"
-date: "`r Sys.Date()`"
+date: today
 format:
   html:
     theme: journal
